@@ -96,21 +96,21 @@ It made use of what tools were available at the time
 and relied heavily on the injection of JavaScript to the web page under test
 to emulate a user's interaction.
 
-Whilst JavaScript is a good tool to let you introspect the properties of the DOM
+While JavaScript is a good tool to let you introspect the properties of the DOM
 and to do certain client-side observations that you would otherwise not be able to do,
-it falls short on the ability to naturally replicate a user's interactions
+it falls short in the ability to naturally replicate a user's interactions
 as if the mouse and keyboard are being used.
 
 Since then, Selenium has grown and matured a lot,
 into a tool widely used by many&mdash;if not most&mdash;of
 the largest organisations around the world.
 Selenium has gone from a homebrewed test automation toolkit developed at Thoughtworks
-for a niché audience and a specific use case,
+for a niche audience and a specific use case,
 to the world's _de facto_ browser automation library.
 
 Just as Selenium RC made use of the tools of the trade available at the time,
 [Selenium WebDriver]({{< ref "/webdriver/_index.md" >}}) drives that tradition on by taking
-the browser interaction part to the browser vendor's home turf 
+the browser interaction to the browser vendor's home turf 
 and asking them to take responsibility of the backend, browser-facing implementations.
 Recently this work has evolved into a W3C standardisation process
 where the goal is to turn the WebDriver component in Selenium
